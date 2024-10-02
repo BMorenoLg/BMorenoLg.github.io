@@ -29,10 +29,8 @@ h4 {
     font-size: 20px;
     font-weight: 500;
 }
-.navegacion{
-    position: absolute;
-    width: 100%;
-    top: 0;
+.inicio{
+    padding: 100px 0;
 }
 
 .navbar-expand-lg .navbar-nav{
@@ -43,11 +41,7 @@ h4 {
    font-family: var(--heading-font);
    font-size: 20px;
 }
-.inicio{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
+
 .inicio h2{
     font-size: 68px;
     font-weight: 700;
@@ -173,4 +167,18 @@ h4 {
   }
   .img-about img{
     width: 100%;
+  }
+
+  @media only screen and (min-width: 1920px) {
+    .navegacion {
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+    .inicio{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        padding:  0;
+    }
   }
