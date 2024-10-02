@@ -164,3 +164,13 @@ h4 {
     font-size: 26px;
     margin: 14px;
   }
+  .img-about{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: clip;
+    border: 10px solid var(--secondary-color);
+  }
+  .img-about img{
+    width: 100%;
+  }
