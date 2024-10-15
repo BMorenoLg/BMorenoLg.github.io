@@ -33,10 +33,10 @@ h4 {
     padding: 100px 0;
 }
 
-.navbar-expand-lg .navbar-nav{
+.navbar-expand-sm .navbar-nav{
     margin: auto;
 }
-.navbar-expand-lg .navbar-nav .nav-link{
+.navbar-expand-sm .navbar-nav .nav-link{
    color:var(--primary-color)!important;
    font-family: var(--heading-font);
    font-size: 20px;
@@ -168,7 +168,24 @@ h4 {
   .img-about img{
     width: 100%;
   }
-
+.about-me{
+    padding-bottom: 30px;
+}
+.footer{
+    background: var(--light-color);
+    color: #fff;
+    display: flex;
+    padding: 10px 0 ;
+    align-items: center;
+    justify-content: center;
+}
+.footer a{
+    margin: 0 10px;
+    font-size: 25px;
+    margin: 0 10px;
+    color:#fff;
+    display:inline-block
+}
   @media only screen and (min-width: 1920px) {
     .navegacion {
         position: absolute;
@@ -180,5 +197,15 @@ h4 {
         display: flex;
         align-items: center;
         padding:  0;
+    }
+  }
+  @media only screen and (max-width: 1199px){
+    .circle-icon{
+        margin: 0 1%;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .img-about{
+        margin: 0 auto 30px;
     }
   }
